@@ -12,6 +12,11 @@
 		FA8704A11EF25CFF0013A498 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA87049F1EF25CFF0013A498 /* Main.storyboard */; };
 		FA8704A31EF25CFF0013A498 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8704A21EF25CFF0013A498 /* Assets.xcassets */; };
 		FA8704A61EF25CFF0013A498 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8704A41EF25CFF0013A498 /* LaunchScreen.storyboard */; };
+		FA8704AE1EF27DFD0013A498 /* addNewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8704AD1EF27DFD0013A498 /* addNewUserViewController.swift */; };
+		FA8704B01EF281E60013A498 /* IMG_9900.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA8704AF1EF281E60013A498 /* IMG_9900.jpg */; };
+		FA8704B41EF285DD0013A498 /* ic_note_add_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8704B11EF285DD0013A498 /* ic_note_add_2x.png */; };
+		FA8704B51EF285DD0013A498 /* ic_note_add_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8704B21EF285DD0013A498 /* ic_note_add_3x.png */; };
+		FA8704B61EF285DD0013A498 /* ic_note_add.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8704B31EF285DD0013A498 /* ic_note_add.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		FA8704A21EF25CFF0013A498 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA8704A51EF25CFF0013A498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA8704A71EF25CFF0013A498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8704AD1EF27DFD0013A498 /* addNewUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addNewUserViewController.swift; sourceTree = "<group>"; };
+		FA8704AF1EF281E60013A498 /* IMG_9900.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_9900.jpg; path = ../../../../Desktop/IMG_9900.jpg; sourceTree = "<group>"; };
+		FA8704B11EF285DD0013A498 /* ic_note_add_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_note_add_2x.png; path = ../../../../Desktop/ic_note_add_2x.png; sourceTree = "<group>"; };
+		FA8704B21EF285DD0013A498 /* ic_note_add_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_note_add_3x.png; path = ../../../../Desktop/ic_note_add_3x.png; sourceTree = "<group>"; };
+		FA8704B31EF285DD0013A498 /* ic_note_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_note_add.png; path = ../../../../Desktop/ic_note_add.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +64,13 @@
 		FA87049A1EF25CFF0013A498 /* My Service */ = {
 			isa = PBXGroup;
 			children = (
+				FA8704B11EF285DD0013A498 /* ic_note_add_2x.png */,
+				FA8704B21EF285DD0013A498 /* ic_note_add_3x.png */,
+				FA8704B31EF285DD0013A498 /* ic_note_add.png */,
+				FA8704AF1EF281E60013A498 /* IMG_9900.jpg */,
 				FA87049B1EF25CFF0013A498 /* AppDelegate.swift */,
 				FA87049D1EF25CFF0013A498 /* ViewController.swift */,
+				FA8704AD1EF27DFD0013A498 /* addNewUserViewController.swift */,
 				FA87049F1EF25CFF0013A498 /* Main.storyboard */,
 				FA8704A21EF25CFF0013A498 /* Assets.xcassets */,
 				FA8704A41EF25CFF0013A498 /* LaunchScreen.storyboard */,
@@ -123,7 +138,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA8704B61EF285DD0013A498 /* ic_note_add.png in Resources */,
 				FA8704A61EF25CFF0013A498 /* LaunchScreen.storyboard in Resources */,
+				FA8704B41EF285DD0013A498 /* ic_note_add_2x.png in Resources */,
+				FA8704B51EF285DD0013A498 /* ic_note_add_3x.png in Resources */,
+				FA8704B01EF281E60013A498 /* IMG_9900.jpg in Resources */,
 				FA8704A31EF25CFF0013A498 /* Assets.xcassets in Resources */,
 				FA8704A11EF25CFF0013A498 /* Main.storyboard in Resources */,
 			);
@@ -136,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA8704AE1EF27DFD0013A498 /* addNewUserViewController.swift in Sources */,
 				FA87049E1EF25CFF0013A498 /* ViewController.swift in Sources */,
 				FA87049C1EF25CFF0013A498 /* AppDelegate.swift in Sources */,
 			);
