@@ -21,60 +21,121 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_9900.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="EXf-kJ-9L2">
-                                <rect key="frame" x="-312.5" y="20" width="1000" height="647"/>
-                            </imageView>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZOg-RZ-zR3">
-                                <rect key="frame" x="0.0" y="18" width="375" height="44"/>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hiY-1M-JDe">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
-                                    <navigationItem title="SNRU" id="1WJ-wT-xoI"/>
+                                    <navigationItem title="SNRU" id="SGh-1I-Zwy"/>
                                 </items>
                             </navigationBar>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1XK-5w-OZ3">
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YEi-n4-N5P">
                                 <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
-                                    <barButtonItem title="Item" id="VMa-pN-jdd"/>
-                                    <barButtonItem image="ic_note_add_2x.png" id="Ume-3K-S3N"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="fUZ-pA-kOS"/>
+                                    <barButtonItem image="ic_note_add.png" id="Li8-po-DxE">
+                                        <connections>
+                                            <segue destination="Oax-eS-ACS" kind="show" id="0ya-Wm-c9M"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="EXf-kJ-9L2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="8vE-NV-P8y"/>
-                            <constraint firstItem="EXf-kJ-9L2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ldr-XK-zd3"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="EXf-kJ-9L2" secondAttribute="bottom" id="zaw-4v-Jry"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
+            <point key="canvasLocation" x="32.799999999999997" y="38.23088455772114"/>
         </scene>
         <!--AddNewUser-->
-        <scene sceneID="esf-Fz-ZKc">
+        <scene sceneID="Zd9-5d-OAT">
             <objects>
-                <viewController title="AddNewUser" id="5QA-bO-yY5" customClass="addNewUserViewController" customModule="My_Service" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="AddNewUser" id="Oax-eS-ACS" customClass="AddNewUserViewController" customModule="My_Service" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="MMC-1V-Stk"/>
-                        <viewControllerLayoutGuide type="bottom" id="zs2-RI-ejX"/>
+                        <viewControllerLayoutGuide type="top" id="jXM-cP-JHs"/>
+                        <viewControllerLayoutGuide type="bottom" id="NsW-3N-tV7"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="nCO-xQ-ixG">
+                    <view key="view" contentMode="scaleToFill" id="DCU-Vr-C2g">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5vV-rO-UIE">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Add New User" id="XVi-mL-Xik">
+                                        <barButtonItem key="leftBarButtonItem" image="ic_keyboard_arrow_left.png" id="als-Eu-nId">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="VUd-eI-c2h"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="43D-KM-EUN">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="eFd-rH-MKO"/>
+                                    <barButtonItem title="Save New User to Server" id="ymo-ug-dfv">
+                                        <connections>
+                                            <action selector="saveButton:" destination="Oax-eS-ACS" id="JVF-TW-TFk"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="GH8-nP-eet"/>
+                                </items>
+                            </toolbar>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name :" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kYJ-0N-pvX">
+                                <rect key="frame" x="70" y="125" width="235" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="User :" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rdx-bw-xUl">
+                                <rect key="frame" x="70" y="175" width="235" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password :" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SZS-ga-cQn">
+                                <rect key="frame" x="70" y="222" width="235" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please Fill All Blank" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZaL-PW-oA1">
+                                <rect key="frame" x="0.0" y="283" width="375" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="nameTextField" destination="kYJ-0N-pvX" id="KE5-Sm-uoC"/>
+                        <outlet property="passwordTextField" destination="SZS-ga-cQn" id="mq8-co-qne"/>
+                        <outlet property="userTextField" destination="rdx-bw-xUl" id="UdY-Nr-Ej9"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="neE-pM-QGm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eTw-az-PB1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="714" y="35"/>
+            <point key="canvasLocation" x="876" y="37.331334332833585"/>
         </scene>
     </scenes>
     <resources>
-        <image name="IMG_9900.jpg" width="1000" height="667"/>
-        <image name="ic_note_add_2x.png" width="48" height="48"/>
+        <image name="ic_keyboard_arrow_left.png" width="24" height="24"/>
+        <image name="ic_note_add.png" width="24" height="24"/>
     </resources>
 </document>
