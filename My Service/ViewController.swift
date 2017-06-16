@@ -9,6 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    //Explicit
+    
+    var myStrig = ""
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
